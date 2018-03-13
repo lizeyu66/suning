@@ -253,10 +253,11 @@
 		nexts.onclick=function(ele,index){
 			n++;
 			if(n===content.length){
-				n=content.length-3;
+				n=content.length;
 				return;
 			}
 			inners.style.marginLeft=n*-390+"px";
+			n=index;
 		}
 		prevs.onclick=function(ele,index){
 			n--;
@@ -266,6 +267,7 @@
 			}
 			
 			inners.style.marginLeft=n*-390+"px";
+			n=index;
 
 		}
 

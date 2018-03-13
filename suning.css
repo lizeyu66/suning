@@ -958,7 +958,6 @@
 	position: absolute;
 	right: 10px;
 	top: 10px;
-	background-color: yellowgreen;
 }
 .dahuiju_bottom_r img{
 	width: 180px;
@@ -1177,7 +1176,6 @@
 	width: 800px;
 	height: 100%;
 	float: left;
-	background-color:red;
 	position: relative; 
 }
 .img_qy_bottom ul{
@@ -1304,14 +1302,20 @@
     top: 80px;
     left: 170px;
     display: block;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
     font-size: 50px;
     line-height: 50px;
     color: #fff;
-    background-color: rgba(51, 51, 51, 0.4);
     font-weight: 200;
+}
+.yya{
+	position: absolute;
+    top: 75px;
+    left: 170px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgba(51, 51, 51, 0.4);
 }
 .circles{
     background-color: #fff;
